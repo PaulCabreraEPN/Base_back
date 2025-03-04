@@ -1,0 +1,136 @@
+----- CONFERENCISTAS -----
+[
+    {
+        "nombre": "Carlos",
+        "apellido": "Mendoza",
+        "cedula": "1234567890",
+        "genero": "Masculino",
+        "fecha_nacimiento": "1980-03-25",
+        "ciudad": "Quito",
+        "direccion": "Av. Amazonas N12-34",
+        "telefono": "0987654321",
+        "email": "carlos.mendoza@example.com",
+        "empresa": "Tecnologías Innovadoras S.A."
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Gutiérrez",
+        "cedula": "0987654321",
+        "genero": "Femenino",
+        "fecha_nacimiento": "1975-07-12",
+        "ciudad": "Guayaquil",
+        "direccion": "Calle 10 de Agosto",
+        "telefono": "0998765432",
+        "email": "ana.gutierrez@example.com",
+        "empresa": "Consultoría Estratégica Global"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Fernández",
+        "cedula": "1122334455",
+        "genero": "Masculino",
+        "fecha_nacimiento": "1988-11-30",
+        "ciudad": "Cuenca",
+        "direccion": "Av. Loja 5-67",
+        "telefono": "0976543210",
+        "email": "luis.fernandez@example.com",
+        "empresa": "Soluciones Digitales Avanzadas"
+    },
+    {
+        "nombre": "María",
+        "apellido": "Pazmiño",
+        "cedula": "2233445566",
+        "genero": "Femenino",
+        "fecha_nacimiento": "1990-02-14",
+        "ciudad": "Ambato",
+        "direccion": "Calle Sucre 12-34",
+        "telefono": "0965432109",
+        "email": "maria.pazmino@example.com",
+        "empresa": "Innovación y Desarrollo S.A."
+    },
+    {
+        "nombre": "Jorge",
+        "apellido": "Vega",
+        "cedula": "3344556677",
+        "genero": "Masculino",
+        "fecha_nacimiento": "1985-07-19",
+        "ciudad": "Manta",
+        "direccion": "Av. 24 de Mayo",
+        "telefono": "0954321098",
+        "email": "jorge.vega@example.com",
+        "empresa": "Tecnología y Futuro S.A."
+    }
+]
+
+---- AUDITORIOS ----
+[
+    {
+        "nombre": "Auditorio Central",
+        "cedula": "1234567890",
+        "ubicacion": "Edificio Administrativo, Planta Baja, Ala Este",
+        "capacidad": 500,
+        "descripcion": "Auditorio principal con capacidad para eventos grandes, equipado con sistema de sonido, proyector y aire acondicionado."
+    },
+    {
+        "nombre": "Sala de Conferencias A",
+        "cedula": "0987654321",
+        "ubicacion": "Edificio de Innovación, Primer Piso, Sala 101",
+        "capacidad": 80,
+        "descripcion": "Sala ideal para reuniones ejecutivas y presentaciones pequeñas, con pantalla interactiva y WiFi de alta velocidad."
+    },
+    {
+        "nombre": "Auditorio de Ciencias",
+        "cedula": "1122334455",
+        "ubicacion": "Edificio de Ciencias, Segundo Piso, Ala Norte",
+        "capacidad": 200,
+        "descripcion": "Auditorio especializado para charlas científicas, con laboratorio integrado y equipo multimedia."
+    },
+    {
+        "nombre": "Sala de Eventos B",
+        "cedula": "2233445566",
+        "ubicacion": "Edificio de Arte y Cultura, Planta Baja, Sala 201",
+        "capacidad": 120,
+        "descripcion": "Sala versátil para talleres, exposiciones y eventos culturales, con iluminación ajustable y sistema de audio."
+    },
+    {
+        "nombre": "Auditorio de Postgrados",
+        "cedula": "3344556677",
+        "ubicacion": "Edificio de Postgrados, Tercer Piso, Sala 301",
+        "capacidad": 150,
+        "descripcion": "Auditorio moderno para seminarios y conferencias académicas, con asientos ergonómicos y pizarra digital."
+    }
+]
+
+---- RESERVAS ----
+[
+    {
+        "codigo": "RES-001",
+        "descripcion": "Conferencia anual de tecnología e innovación.",
+        "auditorio": "64f8a5b1c9b1a2b3c4d5e6f1", // ObjectId del Auditorio Central
+        "conferencista": "64f8a5b1c9b1a2b3c4d5e6f2" // ObjectId del conferencista Carlos Mendoza
+    },
+    {
+        "codigo": "RES-002",
+        "descripcion": "Taller de liderazgo y gestión de equipos.",
+        "auditorio": "64f8a5b1c9b1a2b3c4d5e6f3", // ObjectId de la Sala de Conferencias A
+        "conferencista": "64f8a5b1c9b1a2b3c4d5e6f4" // ObjectId del conferencista Ana Gutiérrez
+    },
+    {
+        "codigo": "RES-003",
+        "descripcion": "Seminario sobre inteligencia artificial y machine learning.",
+        "auditorio": "64f8a5b1c9b1a2b3c4d5e6f5", // ObjectId del Auditorio de Ciencias
+        "conferencista": "64f8a5b1c9b1a2b3c4d5e6f6" // ObjectId del conferencista Luis Fernández
+    },
+    {
+        "codigo": "RES-004",
+        "descripcion": "Exposición de arte contemporáneo.",
+        "auditorio": "64f8a5b1c9b1a2b3c4d5e6f7", // ObjectId de la Sala de Eventos B
+        "conferencista": "64f8a5b1c9b1a2b3c4d5e6f8" // ObjectId del conferencista María Pazmiño
+    },
+    {
+        "codigo": "RES-005",
+        "descripcion": "Conferencia sobre tendencias en educación superior.",
+        "auditorio": "64f8a5b1c9b1a2b3c4d5e6f9", // ObjectId del Auditorio de Postgrados
+        "conferencista": "64f8a5b1c9b1a2b3c4d5e6fa" // ObjectId del conferencista Jorge Vega
+    }
+]

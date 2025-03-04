@@ -1,0 +1,121 @@
+--- PACIENTES ----
+[
+    {
+        "nombre": "Ana",
+        "apellido": "García",
+        "cedula": "1234567890",
+        "fecha_nacimiento": "1990-05-15",
+        "genero": "Femenino",
+        "ciudad": "Quito",
+        "direccion": "Av. Amazonas N12-34",
+        "telefono": "0987654321",
+        "email": "ana.garcia@example.com"
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "Martínez",
+        "cedula": "0987654321",
+        "fecha_nacimiento": "1985-08-22",
+        "genero": "Masculino",
+        "ciudad": "Guayaquil",
+        "direccion": "Calle 10 de Agosto",
+        "telefono": "0998765432",
+        "email": "carlos.martinez@example.com"
+    },
+    {
+        "nombre": "María",
+        "apellido": "López",
+        "cedula": "1122334455",
+        "fecha_nacimiento": "1978-11-30",
+        "genero": "Femenino",
+        "ciudad": "Cuenca",
+        "direccion": "Av. Loja 5-67",
+        "telefono": "0976543210",
+        "email": "maria.lopez@example.com"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Rodríguez",
+        "cedula": "2233445566",
+        "fecha_nacimiento": "1995-02-14",
+        "genero": "Masculino",
+        "ciudad": "Ambato",
+        "direccion": "Calle Sucre 12-34",
+        "telefono": "0965432109",
+        "email": "luis.rodriguez@example.com"
+    },
+    {
+        "nombre": "Sofía",
+        "apellido": "Fernández",
+        "cedula": "3344556677",
+        "fecha_nacimiento": "1982-07-19",
+        "genero": "Femenino",
+        "ciudad": "Manta",
+        "direccion": "Av. 24 de Mayo",
+        "telefono": "0954321098",
+        "email": "sofia.fernandez@example.com"
+    }
+]
+
+--- ESPECIALIDADES ------
+[
+    {
+        "nombre": "Cardiología",
+        "codigo": "CARD-001",
+        "descripcion": "Especialidad médica que se ocupa de las enfermedades del corazón y del sistema circulatorio."
+    },
+    {
+        "nombre": "Dermatología",
+        "codigo": "DERM-002",
+        "descripcion": "Especialidad médica dedicada al estudio de la piel, su estructura, función y enfermedades."
+    },
+    {
+        "nombre": "Pediatría",
+        "codigo": "PEDI-003",
+        "descripcion": "Especialidad médica que se ocupa de la salud y enfermedades de los niños."
+    },
+    {
+        "nombre": "Ortopedia",
+        "codigo": "ORTO-004",
+        "descripcion": "Especialidad médica que se ocupa de las deformidades o lesiones del sistema musculoesquelético."
+    },
+    {
+        "nombre": "Ginecología",
+        "codigo": "GINE-005",
+        "descripcion": "Especialidad médica que se ocupa de la salud del sistema reproductor femenino."
+    }
+]
+
+--- CITAS ----
+[
+    {
+        "codigo": "CITA-001",
+        "descripcion": "Consulta de Cardiología para Ana García",
+        "paciente": "64f8a5b1c9b1a2b3c4d5e6f1", // ObjectId del paciente Ana García
+        "especialidad": "64f8a5b1c9b1a2b3c4d5e6f2" // ObjectId de la especialidad Cardiología
+    },
+    {
+        "codigo": "CITA-002",
+        "descripcion": "Consulta de Dermatología para Carlos Martínez",
+        "paciente": "64f8a5b1c9b1a2b3c4d5e6f3", // ObjectId del paciente Carlos Martínez
+        "especialidad": "64f8a5b1c9b1a2b3c4d5e6f4" // ObjectId de la especialidad Dermatología
+    },
+    {
+        "codigo": "CITA-003",
+        "descripcion": "Consulta de Pediatría para María López",
+        "paciente": "64f8a5b1c9b1a2b3c4d5e6f5", // ObjectId del paciente María López
+        "especialidad": "64f8a5b1c9b1a2b3c4d5e6f6" // ObjectId de la especialidad Pediatría
+    },
+    {
+        "codigo": "CITA-004",
+        "descripcion": "Consulta de Ortopedia para Luis Rodríguez",
+        "paciente": "64f8a5b1c9b1a2b3c4d5e6f7", // ObjectId del paciente Luis Rodríguez
+        "especialidad": "64f8a5b1c9b1a2b3c4d5e6f8" // ObjectId de la especialidad Ortopedia
+    },
+    {
+        "codigo": "CITA-005",
+        "descripcion": "Consulta de Ginecología para Sofía Fernández",
+        "paciente": "64f8a5b1c9b1a2b3c4d5e6f9", // ObjectId del paciente Sofía Fernández
+        "especialidad": "64f8a5b1c9b1a2b3c4d5e6fa" // ObjectId de la especialidad Ginecología
+    }
+]

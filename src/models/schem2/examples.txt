@@ -1,0 +1,142 @@
+---CLIENTES---
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "cedula": "1234567890",
+        "fecha_nacimiento": "1990-05-15",
+        "ciudad": "Quito",
+        "direccion": "Av. Amazonas N12-34",
+        "telefono": "0987654321",
+        "email": "juan.perez@example.com"
+    },
+    {
+        "nombre": "María",
+        "apellido": "Gómez",
+        "cedula": "0987654321",
+        "fecha_nacimiento": "1985-08-22",
+        "ciudad": "Guayaquil",
+        "direccion": "Calle 10 de Agosto",
+        "telefono": "0998765432",
+        "email": "maria.gomez@example.com"
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "López",
+        "cedula": "1122334455",
+        "fecha_nacimiento": "1978-11-30",
+        "ciudad": "Cuenca",
+        "direccion": "Av. Loja 5-67",
+        "telefono": "0976543210",
+        "email": "carlos.lopez@example.com"
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "cedula": "2233445566",
+        "fecha_nacimiento": "1995-02-14",
+        "ciudad": "Ambato",
+        "direccion": "Calle Sucre 12-34",
+        "telefono": "0965432109",
+        "email": "ana.martinez@example.com"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Rodríguez",
+        "cedula": "3344556677",
+        "fecha_nacimiento": "1982-07-19",
+        "ciudad": "Manta",
+        "direccion": "Av. 24 de Mayo",
+        "telefono": "0954321098",
+        "email": "luis.rodriguez@example.com"
+    }
+]
+
+---VEHICULOS-----.
+
+[
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "anio_fabricacion": 2020,
+        "placa": "ABC-1234",
+        "color": "Blanco",
+        "tipo_vehiculo": "Sedán",
+        "kilomeraje": 15000,
+        "descripcion": "Vehículo en excelente estado, mantenimiento al día."
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Ranger",
+        "anio_fabricacion": 2018,
+        "placa": "XYZ-5678",
+        "color": "Negro",
+        "tipo_vehiculo": "Camioneta",
+        "kilomeraje": 45000,
+        "descripcion": "Camioneta 4x4, ideal para terrenos difíciles."
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Spark",
+        "anio_fabricacion": 2019,
+        "placa": "DEF-9101",
+        "color": "Rojo",
+        "tipo_vehiculo": "Hatchback",
+        "kilomeraje": 30000,
+        "descripcion": "Vehículo compacto, económico y eficiente."
+    },
+    {
+        "marca": "Hyundai",
+        "modelo": "Tucson",
+        "anio_fabricacion": 2021,
+        "placa": "GHI-1121",
+        "color": "Gris",
+        "tipo_vehiculo": "SUV",
+        "kilomeraje": 10000,
+        "descripcion": "SUV familiar, con tecnología avanzada."
+    },
+    {
+        "marca": "Nissan",
+        "modelo": "Versa",
+        "anio_fabricacion": 2017,
+        "placa": "JKL-3141",
+        "color": "Azul",
+        "tipo_vehiculo": "Sedán",
+        "kilomeraje": 60000,
+        "descripcion": "Vehículo confiable, perfecto para ciudad."
+    }
+]
+
+---RESERVAS-----
+[
+    {
+        "codigo": "RES-001",
+        "descripcion": "Reserva para Juan Pérez - Toyota Corolla",
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f1", // ObjectId del cliente Juan Pérez
+        "vehiculo": "64f8a5b1c9b1a2b3c4d5e6f2" // ObjectId del vehículo Toyota Corolla
+    },
+    {
+        "codigo": "RES-002",
+        "descripcion": "Reserva para María Gómez - Ford Ranger",
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f3", // ObjectId del cliente María Gómez
+        "vehiculo": "64f8a5b1c9b1a2b3c4d5e6f4" // ObjectId del vehículo Ford Ranger
+    },
+    {
+        "codigo": "RES-003",
+        "descripcion": "Reserva para Carlos López - Chevrolet Spark",
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f5", // ObjectId del cliente Carlos López
+        "vehiculo": "64f8a5b1c9b1a2b3c4d5e6f6" // ObjectId del vehículo Chevrolet Spark
+    },
+    {
+        "codigo": "RES-004",
+        "descripcion": "Reserva para Ana Martínez - Hyundai Tucson",
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f7", // ObjectId del cliente Ana Martínez
+        "vehiculo": "64f8a5b1c9b1a2b3c4d5e6f8" // ObjectId del vehículo Hyundai Tucson
+    },
+    {
+        "codigo": "RES-005",
+        "descripcion": "Reserva para Luis Rodríguez - Nissan Versa",
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f9", // ObjectId del cliente Luis Rodríguez
+        "vehiculo": "64f8a5b1c9b1a2b3c4d5e6fa" // ObjectId del vehículo Nissan Versa
+    }
+]

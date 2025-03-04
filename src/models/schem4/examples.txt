@@ -1,0 +1,145 @@
+----- CLIENTES -----
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "cedula": "1234567890",
+        "fecha_nacimiento": "1990-05-15",
+        "ciudad": "Quito",
+        "direccion": "Av. Amazonas N12-34",
+        "telefono": "0987654321",
+        "email": "juan.perez@empresa.com",
+        "dependencia": "Soporte Técnico"
+    },
+    {
+        "nombre": "María",
+        "apellido": "Gómez",
+        "cedula": "0987654321",
+        "fecha_nacimiento": "1985-08-22",
+        "ciudad": "Guayaquil",
+        "direccion": "Calle 10 de Agosto",
+        "telefono": "0998765432",
+        "email": "maria.gomez@empresa.com",
+        "dependencia": "Desarrollo de Software"
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "López",
+        "cedula": "1122334455",
+        "fecha_nacimiento": "1978-11-30",
+        "ciudad": "Cuenca",
+        "direccion": "Av. Loja 5-67",
+        "telefono": "0976543210",
+        "email": "carlos.lopez@empresa.com",
+        "dependencia": "Infraestructura IT"
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "cedula": "2233445566",
+        "fecha_nacimiento": "1995-02-14",
+        "ciudad": "Ambato",
+        "direccion": "Calle Sucre 12-34",
+        "telefono": "0965432109",
+        "email": "ana.martinez@empresa.com",
+        "dependencia": "Soporte Técnico"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Rodríguez",
+        "cedula": "3344556677",
+        "fecha_nacimiento": "1982-07-19",
+        "ciudad": "Manta",
+        "direccion": "Av. 24 de Mayo",
+        "telefono": "0954321098",
+        "email": "luis.rodriguez@empresa.com",
+        "dependencia": "Redes y Telecomunicaciones"
+    }
+]
+----- TECNICOS ------
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "cedula": "1234567890",
+        "fecha_nacimiento": "1990-05-15",
+        "genero": "Masculino",
+        "direccion": "Av. Amazonas N12-34",
+        "telefono": "0987654321",
+        "email": "juan.perez@example.com"
+    },
+    {
+        "nombre": "María",
+        "apellido": "Gómez",
+        "cedula": "0987654321",
+        "fecha_nacimiento": "1985-08-22",
+        "genero": "Femenino",
+        "direccion": "Calle 10 de Agosto",
+        "telefono": "0998765432",
+        "email": "maria.gomez@example.com"
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "López",
+        "cedula": "1122334455",
+        "fecha_nacimiento": "1978-11-30",
+        "genero": "Masculino",
+        "direccion": "Av. Loja 5-67",
+        "telefono": "0976543210",
+        "email": "carlos.lopez@example.com"
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "cedula": "2233445566",
+        "fecha_nacimiento": "1995-02-14",
+        "genero": "Femenino",
+        "direccion": "Calle Sucre 12-34",
+        "telefono": "0965432109",
+        "email": "ana.martinez@example.com"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Rodríguez",
+        "cedula": "3344556677",
+        "fecha_nacimiento": "1982-07-19",
+        "genero": "Masculino",
+        "direccion": "Av. 24 de Mayo",
+        "telefono": "0954321098",
+        "email": "luis.rodriguez@example.com"
+    }
+]
+
+---- TICKETS ----
+[
+    {
+        "codigo": "TICKET-001",
+        "descripcion": "Problema con la conexión a la red en el departamento de Soporte Técnico.",
+        "tecnico": "64f8a5b1c9b1a2b3c4d5e6f1", // ObjectId del técnico Juan Pérez
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f2" // ObjectId del cliente Ana Martínez
+    },
+    {
+        "codigo": "TICKET-002",
+        "descripcion": "Error en el servidor de base de datos, no se pueden realizar consultas.",
+        "tecnico": "64f8a5b1c9b1a2b3c4d5e6f3", // ObjectId del técnico María Gómez
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f4" // ObjectId del cliente Carlos López
+    },
+    {
+        "codigo": "TICKET-003",
+        "descripcion": "El software de gestión no inicia, muestra un error de licencia.",
+        "tecnico": "64f8a5b1c9b1a2b3c4d5e6f5", // ObjectId del técnico Carlos López
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f6" // ObjectId del cliente Luis Rodríguez
+    },
+    {
+        "codigo": "TICKET-004",
+        "descripcion": "Problema con la impresora en el área de Recursos Humanos.",
+        "tecnico": "64f8a5b1c9b1a2b3c4d5e6f7", // ObjectId del técnico Ana Martínez
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6f8" // ObjectId del cliente Sofía Fernández
+    },
+    {
+        "codigo": "TICKET-005",
+        "descripcion": "Solicitud de instalación de nuevo software en los equipos de Desarrollo.",
+        "tecnico": "64f8a5b1c9b1a2b3c4d5e6f9", // ObjectId del técnico Luis Rodríguez
+        "cliente": "64f8a5b1c9b1a2b3c4d5e6fa" // ObjectId del cliente Juan Pérez
+    }
+]
